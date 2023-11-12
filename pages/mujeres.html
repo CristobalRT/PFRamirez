@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>✨Elite✨</title>
     <link rel="shortcut icon" href="../multimedia/logos/logo3.png">
-    <link rel="stylesheet" href="../css/estilo.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilo.css" type="text/css">
+
 </head>
 <body>
     <header>
@@ -15,87 +17,104 @@
         </div> 
     </header>   
     
-    <nav class="navbar">
-        <a href="../index.html" class="logopag">
-            <img src="../multimedia/logos/logo3.png" width="130px"  alt="foto logo">
-            <h2>Elite</h2>
-        </a>
-        
-        <ul class="navbar_items">
-            <li class="menu"> <a class="navbar_link" href="../index.html"> Home </a></li>
-            <li class="menu"> <a class="navbar_link" href="../pages/hombres.html"> Hombre </a></li>
-            <li class="menu"> <a class="navbar_link" href="../pages/mujeres.html"> Mujer </a></li>
-            <li class="menu"> <a class="navbar_link" href="../pages/niños.html"> Niños </a></li>
-            <li class="menu"> <a class="navbar_link" href="../pages/nosotros.html"> Nosotros </a></li>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg navpropio">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="../multimedia/logos/logo3.png" alt="logoempresa" width="130">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link"  href="../index.html">Home</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="../pages/hombres.html">Hombres</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/mujeres.html">Mujeres</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/niños.html">Niños</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
     <main>
         <h1 class="titulo-niño">Producto Mujer</h1>
         <p class="subtitulo-niño">Prendas urbanas y deportivas para que mantengas un estilo fresco y actual en todo momento.</p>
-        <div class="container-items">
-            <div class="item">
-                <figure>
-                    <img src="../multimedia/img/producto_mujer/blusa.jpg" alt="blusa">
-                </figure>
-                <div class="info-producto">
-                    <h2>Blusa Blanca</h2>
-                    <p class="precio">$20.000</p>
-                    <button>añadir al carrito </button>
+        <section class="producto--mujer">
+            <div class="container-items">
+                <div class="item">
+                    <figure>
+                        <img src="../multimedia/img/producto_mujer/blusa.jpg" alt="blusa">
+                    </figure>
+                    <div class="info-producto">
+                        <h2>Blusa Blanca</h2>
+                        <p class="precio">$20.000</p>
+                        <button>añadir al carrito </button>
+                    </div>
                 </div>
-            </div>
-            <div class="item">
-                <figure>
-                    <img src="../multimedia/img/producto_mujer/forum.webp" alt="forum-purple">
-                </figure>
-                <div class="info-producto">
-                    <h2>Zapatillas Forum low </h2>
-                    <p class="precio">$90.000</p>
-                    <button>añadir al carrito </button>
+                <div class="item">
+                    <figure>
+                        <img src="../multimedia/img/producto_mujer/forum.webp" alt="forum-purple">
+                    </figure>
+                    <div class="info-producto">
+                        <h2>Zapatillas Forum low </h2>
+                        <p class="precio">$90.000</p>
+                        <button>añadir al carrito </button>
+                    </div>
                 </div>
-            </div>
-            <div class="item">
-                <figure>
-                    <img src="../multimedia/img/producto_mujer/forum2.webp" alt="forum">
-                </figure>
-                <div class="info-producto">
-                    <h2>Zapatillas Forum</h2>
-                    <p class="precio">$95.000</p>
-                    <button>añadir al carrito </button>
+                <div class="item">
+                    <figure>
+                        <img src="../multimedia/img/producto_mujer/forum2.webp" alt="forum">
+                    </figure>
+                    <div class="info-producto">
+                        <h2>Zapatillas Forum</h2>
+                        <p class="precio">$95.000</p>
+                        <button>añadir al carrito </button>
+                    </div>
                 </div>
-            </div>
-            <div class="item">
-                <figure>
-                    <img src="../multimedia/img/producto_mujer/pantalones.jpg" alt="pantalon">
-                </figure>
-                <div class="info-producto">
-                    <h2>Pantalon de Tela</h2>
-                    <p class="precio">$20.000</p>
-                    <button>añadir al carrito </button>
+                <div class="item">
+                    <figure>
+                        <img src="../multimedia/img/producto_mujer/pantalones.jpg" alt="pantalon">
+                    </figure>
+                    <div class="info-producto">
+                        <h2>Pantalon de Tela</h2>
+                        <p class="precio">$20.000</p>
+                        <button>añadir al carrito </button>
+                    </div>
                 </div>
-            </div>
-            <div class="item">
-                <figure>
-                    <img src="../multimedia/img/producto_mujer/abrigo.jpg" alt="abrigo-beige">
-                </figure>
-                <div class="info-producto">
-                    <h2>Abrigo Beige</h2>
-                    <p class="precio">$50.000</p>
-                    <button>añadir al carrito </button>
+                <div class="item">
+                    <figure>
+                        <img src="../multimedia/img/producto_mujer/abrigo.jpg" alt="abrigo-beige">
+                    </figure>
+                    <div class="info-producto">
+                        <h2>Abrigo Beige</h2>
+                        <p class="precio">$50.000</p>
+                        <button>añadir al carrito </button>
+                    </div>
                 </div>
-            </div>
-            <div class="item">
-                <figure>
-                    <img src="../multimedia/img/producto_mujer/abrigo2.jpg" alt="abrigo-yellow">
-                </figure>
-                <div class="info-producto">
-                    <h2>Abrigo</h2>
-                    <p class="precio">$85.000</p>
-                    <button>añadir al carrito </button>
+                <div class="item">
+                    <figure>
+                        <img src="../multimedia/img/producto_mujer/abrigo2.jpg" alt="abrigo-yellow">
+                    </figure>
+                    <div class="info-producto">
+                        <h2>Abrigo</h2>
+                        <p class="precio">$85.000</p>
+                        <button>añadir al carrito </button>
+                    </div>
                 </div>
+                
             </div>
-            
-        </div>
+        </section>        
     </main>
     <footer class="footerspace">
 
@@ -159,5 +178,8 @@
             </form> 
         </div>
     </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 </html>
