@@ -91,7 +91,7 @@ img {
     justify-content: center;
     align-items: center;
     height: 60vh;
-    background: url(./multimedia/img/prueba.jpg) no-repeat center;
+    background: url(../multimedia/img/prueba.jpg) no-repeat center;
     background-size: cover;
     padding-bottom: 50px;
 }
