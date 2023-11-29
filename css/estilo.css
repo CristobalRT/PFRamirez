@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat Alternates', sans-serif;
+    transition: all .2s linear;
 }
 
 a {
@@ -330,60 +331,56 @@ textarea {
 
 
 /*------------------------------- Productos----------------------------------------------*/
+ 
 
-.productos{
-    background-color: #4B1A12;
+.hombremain h1, .subtitulo-niño{
+    text-align: center;
+    margin-top: 25px;
 }
-.container-items {
+
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    padding:3rem 2rem;
+ }
+
+.container .filahombre{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 15px;
-}
-
-.subtitulo-niño {
-    padding-left: 15px;
-    font-size: 20px;
-    margin-top: 0px;
-}
-
-img {
-    max-width: 100%;
-}
-
-.item {
-    border-radius: 10px;
-}
-
-.item:hover {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
-}
-
-.info-producto {
-    padding: 15px 30px;
-}
-
-.item img {
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-}
-
-.info-producto button {
-    border: none;
-    background: none;
-    background-color: #ca1b27;
-    color: black;
-    padding: 10px 15px;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:2rem;
+ }
+ 
+ .container .filahombre .columhombre{
+    text-align: center;
+    padding:3rem 2rem;
+    background: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    outline: .1rem solid #ccc;
+    outline-offset: -1.5rem;
     cursor: pointer;
-}
+    border-radius: 10%;
+ }
+ 
+ .container .filahombre .columhombre:hover{
+    outline: .2rem solid #222;
+    outline-offset: 0;
+ }
+ 
+ .container .filahombre .columhombre img{
+    height: 25rem;
+ }
+ 
+ .container .filahombre .columhombre:hover img{
+    transform: scale(.9);
+ }
 
-.titulo-niño {
-    text-align: left;
-    font-size: 35px;
-    margin-top: 15px;
-    margin-left: 15px;
-}
+
+
+
+
+/* */
+
+
 
 /* NOSOTROS */
 .nosotros-main {
@@ -395,4 +392,7 @@ img {
 
 .nosotros-main .row {
     padding: 50px;
+}
+img {
+    max-width: 100%;
 }
