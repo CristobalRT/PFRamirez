@@ -1,0 +1,143 @@
+@import "variables";
+@import "hombre";
+@import "mujer";
+@import "nino";
+@import "nosotros";
+@import "footer";
+@import "navhead";
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    transition: all .2s linear;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+/*Header */ 
+.bodyindex {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #4B1A12;
+    
+    .inicio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        background: url(../multimedia/img/prueba.jpg) no-repeat center;
+        background-size: cover;
+        padding-bottom: 50px;
+        flex-direction: column;
+        .titleinicio {
+            margin-bottom: 40px;
+            color: black;
+            margin-top: 20px;
+        }
+        p{
+            margin-bottom: 40px;
+            font-size: 18px;
+            color: $blancos;
+            padding: 0 100px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 40px;
+            border: 2px solid $sombrarosa;
+            color: $blancos;
+            text-decoration: none;
+            background-color: $sombrarosa;
+            &:hover{
+                background-color: #7c1d0e;
+                color: black;
+            }
+        }
+    }
+
+    .carrusel {
+        background-color: #5a231b;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .titulo-carrusel{
+            color: $blancos;
+            font-size: 40px;
+        }
+    }
+    .productos{
+        .title2 {
+            margin-bottom: 40px;
+            color: $blancos;
+            margin-top: 20px;
+        }
+        p{
+            margin-bottom: 40px;
+            font-size: 18px;
+            color: $blancos;
+            padding: 0 100px;
+        }
+        .container{
+            .primera {
+                text-align: center;
+                .colum {
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    text-align: center;
+                    .box {
+                        background-color: brown;
+                        margin-bottom: 40px;
+                        border-radius: 5%;
+                        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+                        img {
+                            margin: 10px 5px 5px 10px;
+                        }
+                        h3{
+                            color: #171717;
+                        }
+                        p{
+                            margin-bottom: 40px;
+                            font-size: 18px;
+                            color: $blancos;
+                            padding: 0 100px;
+                        }
+                        }
+                    }
+                }
+            }
+        }
+}
+
+/* Consultar en que parte van los media  */
+@media (max-width: 768px) {
+    .p {
+        padding: 0 50px;
+    }
+
+    .title {
+        margin-top: 0;
+        font-size: 40px;
+    }
+
+    .title2 {
+        margin-top: 0;
+        font-size: 40px;
+    }
+
+    .title3 {
+        margin-top: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+
+        padding: 50px;
+    }
+}
+
+

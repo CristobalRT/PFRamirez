@@ -1,0 +1,43 @@
+header {
+    width: 100%;
+    background-color: #7c1d0e;
+    .textohead {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        justify-content: center;
+        color:white;
+        &:hover{
+            color: black;
+        }
+    }
+}
+/*fin */
+
+/*Nav */
+.navpropio {
+    display: flex;
+    min-height: 75px;
+    align-items: RIGHT;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 1%;
+    padding-right: 5%;
+    font-weight: bold;
+    background-color: #4b0408;
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 247, 170, 1.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    .nav-item {
+        margin: 10px;
+        a{
+            color: white;
+            font-weight: 600;
+            padding-right: 10px;
+            &:hover{
+                color:#e91e63;
+            }
+        }
+    }
+}
+/* fin nav  */ 

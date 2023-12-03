@@ -1,0 +1,43 @@
+
+.mujermain{
+    .titulo-mujer{
+        text-align: center;
+        margin-top: 25px;
+    }
+    .subtitulo-mujer{
+        text-align: center;
+        margin-top: 25px;
+    }
+    .prod-mujer{
+        max-width: 100%;
+        margin:0 auto;
+        padding:3rem 2rem;
+        .filamujer{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+            gap:3rem;
+            .colummujer{
+                text-align: center;
+                padding:3rem 2rem;
+                background: #fff;
+                box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+                outline: .1rem solid #ccc;
+                outline-offset: -1.5rem;
+                cursor: pointer;
+                border-radius: 10%;
+                &:hover{
+                    outline: .2rem solid #222;
+                    outline-offset: 0;
+                }
+                img{
+                    height: 25rem;
+                    &:hover{
+                        transform: scale(.9);
+                    }
+                }
+            }
+        }
+    }
+
+
+}
