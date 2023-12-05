@@ -32,7 +32,7 @@
   outline-offset: 0;
 }
 .hombremain .prod-hombre .filahombre .columhombre img {
-  height: 25rem;
+  height: 20rem;
 }
 .hombremain .prod-hombre .filahombre .columhombre img:hover {
   transform: scale(0.9);
@@ -110,7 +110,8 @@
   outline-offset: 0;
 }
 .niñomain .prod-niño .filaniño .columniño img {
-  height: 25rem;
+  height: 20rem;
+  margin-bottom: 10px;
 }
 .niñomain .prod-niño .filaniño .columniño img:hover {
   transform: scale(0.9);
@@ -391,6 +392,9 @@ header .textohead:hover {
   margin-bottom: 40px;
   border-radius: 5%;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+.bodyindex .productos .container .primera .colum .box:hover {
+  transform: translate(0px, 10px);
 }
 .bodyindex .productos .container .primera .colum .box img {
   margin: 10px 5px 5px 10px;

@@ -94,6 +94,9 @@
                         margin-bottom: 40px;
                         border-radius: 5%;
                         box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+                        &:hover{
+                            transform: translate(0px,10px);
+                        }
                         img {
                             margin: 10px 5px 5px 10px;
                         }
