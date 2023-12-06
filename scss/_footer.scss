@@ -63,6 +63,9 @@
 
             img{
                 margin: 10px;
+                &:hover{
+                    transform: rotate(360deg);
+                }
             }
         }
     }

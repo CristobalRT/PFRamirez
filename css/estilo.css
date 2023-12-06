@@ -183,6 +183,9 @@
 .footerspace .footer-social .social-link img {
   margin: 10px;
 }
+.footerspace .footer-social .social-link img:hover {
+  transform: rotate(360deg);
+}
 .footerspace .footerForm {
   text-align: center;
 }
