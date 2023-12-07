@@ -40,3 +40,12 @@
 
 
 }
+@media (max-width: 530px) {
+    .columhombre{
+        width:380px;
+        height: 490px;
+    }
+    img{
+        transform: scale(.7);
+    }
+}

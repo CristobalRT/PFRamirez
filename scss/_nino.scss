@@ -41,3 +41,12 @@
 
 
 }
+@media (max-width: 530px) {
+    .columniño{
+        width:380px;
+        height: 490px;
+    }
+    img{
+        transform: scale(.7);
+    }
+}

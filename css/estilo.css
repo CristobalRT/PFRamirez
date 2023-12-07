@@ -38,6 +38,15 @@
   transform: scale(0.9);
 }
 
+@media (max-width: 530px) {
+  .columhombre {
+    width: 380px;
+    height: 490px;
+  }
+  img {
+    transform: scale(0.7);
+  }
+}
 .mujermain .titulo-mujer {
   text-align: center;
   margin-top: 25px;
@@ -77,6 +86,15 @@
   transform: scale(0.9);
 }
 
+@media (max-width: 530px) {
+  .colummujer {
+    width: 380px;
+    height: 490px;
+  }
+  img {
+    transform: scale(0.7);
+  }
+}
 .niñomain .titulo-niño {
   text-align: center;
   margin-top: 25px;
@@ -117,6 +135,15 @@
   transform: scale(0.9);
 }
 
+@media (max-width: 530px) {
+  .columniño {
+    width: 380px;
+    height: 490px;
+  }
+  img {
+    transform: scale(0.7);
+  }
+}
 /* NOSOTROS */
 .nosotros-main {
   background-color: #a55c61;
